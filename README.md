@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/SpringBoot-Learning-green?style=for-the-badge&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/github/repo-size/Harivignesh-33/spring-boot-learning?style=for-the-badge&color=blue" />
+  <img src="https://img.shields.io/github/repo-size/Harivignesh-33/SpringBoot?style=for-the-badge&color=blue" />
   <img src="https://img.shields.io/badge/Personal-Use-purple?style=for-the-badge&logo=github" />
 </p>
 

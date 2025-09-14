@@ -63,9 +63,9 @@ graph TD
 
 * [x] Java Fundamentals
 * [x] Spring Core Concepts
-* [ ] Spring Boot Basics
-* [ ] Building REST APIs
-* [ ] Database Integration - JPA/Hibernate/MySQL
+* [x] Spring Boot Basics
+* [x] Building REST APIs
+* [x] Database Integration - JPA/Hibernate/MySQL
 * [ ] Spring Security Basics
 * [ ] Real-World Mini Projects
 * [ ] Advanced Topics: Caching, Testing, Deployment

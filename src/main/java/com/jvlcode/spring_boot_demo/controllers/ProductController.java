@@ -14,6 +14,8 @@ public class ProductController {
     @Autowired
     private ProductRepository productRepository;
 
+
+//    ? get all products
     @GetMapping
     public List<ProductEntity> getProducts(){
         return productRepository.findAll();

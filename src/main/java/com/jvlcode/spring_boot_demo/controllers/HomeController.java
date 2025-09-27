@@ -12,4 +12,14 @@ public class HomeController {
     public String getHome(){
         return "Welcome to home";
     }
+
+    @GetMapping("/dashboard")
+    public String getDashBoardPage(){
+        return "login Successful";
+    }
+
+    @GetMapping("/Admin")
+    public  String getAdminPage(){
+        return "Welcome back admin";
+    }
 }

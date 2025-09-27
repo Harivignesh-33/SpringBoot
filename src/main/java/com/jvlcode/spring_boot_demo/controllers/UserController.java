@@ -3,6 +3,7 @@ package com.jvlcode.spring_boot_demo.controllers;
 import com.jvlcode.spring_boot_demo.entity.UserEntity;
 import com.jvlcode.spring_boot_demo.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -13,6 +14,9 @@ import java.util.List;
 public class UserController {
     @Autowired
     private UserRepository userRepository;
+
+    @Autowired
+    private PasswordEncoder passwordEncoder;
 
     //    @GetMapping("/hari")
 //    public String getUsers(){
@@ -36,6 +40,7 @@ public class UserController {
 
     @PostMapping
     public UserEntity createUser(@RequestBody UserEntity user){
+        user.setPassword(passwordEncoder.encode(user.getPassword()));
         return userRepository.save(user);
     }
 
